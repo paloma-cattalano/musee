@@ -1,0 +1,158 @@
+body{
+  font-family: Helvetica;
+  font-size: 1.1em;
+  /* font-weight: bold; */
+}
+
+/* header + logo + titre musée */
+
+.header{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+.connect{
+  padding: 0.5em;
+}
+
+/* navigation */
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  margin-bottom: 0%;
+}
+
+/*
+.titrelogo{
+  color: white;
+  text-decoration: none;
+} */
+
+.accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.imgmusee{
+  width: 100%;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: grey;
+  padding: 4em;
+}
+
+.card{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.dates{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.presentation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.carré{
+  margin: 4em;
+  border: 0.1em grey solid;
+  width: 45%;
+  padding: 1em;
+}
+
+.carréinfo{
+  margin: 2em;
+  border: 0.1em grey solid;
+  width: 30%;
+  padding: 1em;
+}
+
+.intro{
+  font-style: italic;
+}
+
+.bandeau{
+  position: relative;
+}
+
+.photoexpo{
+  position: absolute;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.textexpo{
+  position: absolute;
+  z-index: 1;
+  opacity: 0.9;
+  padding: 3%;
+  font-size: 1.5em;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.bandeaufooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+.icones{
+  font-size: 1.9em;
+  color: grey;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.espaceperso{
+  border: 0.2em grey solid;
+  border-radius: 1px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.connect{
+  padding-bottom: 0.6em;
+  margin-bottom: 0.9em;
+}

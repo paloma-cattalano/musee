@@ -1,0 +1,39 @@
+
+body{
+  font-family: Helvetica;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.form_connect{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: gold;
+  color: maroon;
+  margin: 4em;
+  margin-left: 25em;
+  margin-right: 25em;
+  padding: 5em;
+  border-radius: 2em;
+}
+
+.btn_connexion{
+  width: 14em;
+  height: 2em;
+  border-radius: 0.9em;
+  margin-top: 0.7em;
+  font-family: inherit;
+  font-weight: bold;
+  color: maroon;
+}
+
+.espace_arnaque{
+  margin: 3em;
+  padding: 3em;
+  border-radius: 1.5em;
+  text-align: center;
+  background-color: fuchsia;
+  color: lime;
+  opacity: 0.8;
+}
